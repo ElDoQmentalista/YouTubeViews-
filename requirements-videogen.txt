@@ -1,0 +1,14 @@
+# Dependencias del generador de video (make_video.py / paquete videogen).
+# Instálalas con:  pip install -r requirements-videogen.txt
+
+# Ensamblado del video (trae imageio-ffmpeg, que descarga ffmpeg solo).
+moviepy>=2.0
+Pillow>=9.0
+numpy>=1.23
+
+# Transcripción del audio.
+faster-whisper>=1.0
+
+# Emparejamiento imagen<->texto con CLIP (multilingüe por defecto).
+open_clip_torch>=2.20
+torch>=2.0

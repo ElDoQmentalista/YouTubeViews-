@@ -1,1 +1,6 @@
 *.pyc
+__pycache__/
+
+# Salidas del generador de video
+*.mp4
+!**/sample/*.mp4
